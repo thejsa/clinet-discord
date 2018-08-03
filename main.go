@@ -51,7 +51,8 @@ func init() {
 
 func main() {
 	defer recoverPanic()
-	debugLog("Clinet-Discord © JoshuaDoes 2018.", true)
+	debugLog("Clinet-Discord", true)
+	debugLog("© JoshuaDoes 2018.", true)
 	debugLog("Build ID: "+BuildID, true)
 
 	flag.Parse()
